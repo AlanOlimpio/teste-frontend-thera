@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`<ProductTableRow/> should display an item in the product list 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr
+        class="border-b transition-colors data-[state=selected]:bg-muted cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-800"
+      >
+        <td
+          class="p-2 align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-mono text-xs font-medium min-w-[90px]"
+        >
+          <img
+            alt="Notebook Acer Nitro V15"
+            class="h-20 w-20 object-cover  rounded-md"
+            data-nimg="1"
+            decoding="async"
+            height="80"
+            loading="lazy"
+            src="/_next/image?url=%2Fuploads%2F51Wv-tEUn6L._AC_SX679_.jpg&w=256&q=75"
+            srcset="/_next/image?url=%2Fuploads%2F51Wv-tEUn6L._AC_SX679_.jpg&w=96&q=75 1x, /_next/image?url=%2Fuploads%2F51Wv-tEUn6L._AC_SX679_.jpg&w=256&q=75 2x"
+            style="color: transparent;"
+            width="80"
+          />
+        </td>
+        <td
+          class="p-2 align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+        >
+          Notebook Acer Nitro V15
+        </td>
+        <td
+          class="p-2 align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+        >
+          Eletrodomésticos
+        </td>
+        <td
+          class="p-2 align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+        >
+          R$ 4.640,00
+        </td>
+        <td
+          class="p-2 align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+        >
+          Processador: Intel Core i5-13420H (10 núcleos - 6P
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
